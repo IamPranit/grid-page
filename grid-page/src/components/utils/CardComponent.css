@@ -16,7 +16,11 @@ hr {
 }
 
 p {
-  margin: 15px 5px;
+  margin: 5px;
+  font-size: small;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  height: 60px;
 }
 
 a {

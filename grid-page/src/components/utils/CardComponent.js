@@ -27,10 +27,12 @@ const CardComponent = (props) => {
             {`Date ${date} / Comments ${comments}`}
           </h6>
           <hr />
-          <p className="card-text">{body}</p>
-          <a href="#">
-            Read More<sub>-{">"}</sub>
-          </a>
+          <div className="cardActions">
+            <p className="card-text">{body}</p>
+            <a href="/">
+              Read More<sub>-{">"}</sub>
+            </a>
+          </div>
         </div>
       </div>
     </Container>
