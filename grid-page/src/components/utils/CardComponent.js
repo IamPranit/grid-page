@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import cardImage from "../../images/card-image.jpg";
 import "./CardComponent.css";
 
 const styles = {
@@ -11,12 +10,12 @@ const styles = {
   },
 };
 const CardComponent = (props) => {
-  const { title, date, comments, body } = props.cardData;
+  const { title, image, date, comments, body } = props.cardData;
   return (
     <Container style={styles.card}>
       <div className="card">
         <img
-          src={cardImage}
+          src={image}
           className="card-img-top"
           alt="Card"
           style={{ width: "250px" }}
