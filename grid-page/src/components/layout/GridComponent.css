@@ -1,7 +1,7 @@
 .gridRow {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-template-rows: 320px 320px 320px;
+  grid-template-columns: 255px 255px 255px;
+  grid-template-rows: 330px 330px 330px;
   column-gap: 15px;
   row-gap: 15px;
 }

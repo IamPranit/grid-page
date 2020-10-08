@@ -23,7 +23,7 @@ const CardComponent = (props) => {
         />
         <div className="card-body">
           <h5 className="card-title cardTitle">{title}</h5>
-          <h6 class="card-subtitle mb-2 text-muted cardSubtitle">
+          <h6 className="card-subtitle mb-2 text-muted cardSubtitle">
             {`Date ${date} / Comments ${comments}`}
           </h6>
           <hr />
