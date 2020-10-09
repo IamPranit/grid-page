@@ -1,9 +1,7 @@
 .gridRow {
   display: grid;
-  grid-template-columns: 255px 255px 255px;
-  grid-template-rows: 330px 330px 330px;
-  column-gap: 15px;
-  row-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 
 .gridContainer {
